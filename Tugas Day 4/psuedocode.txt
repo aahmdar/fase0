@@ -1,0 +1,19 @@
+STORE "kecepatan becak = 20km/jam"
+
+IF jumlah penumpang 0 
+  DO kecepatan becak 20km/jam
+    DISPLAY kecepatan 20km/jam
+
+IF jumlah penumpang > 2 
+  DO kecepatan becak 20km/jam - 5km/jam
+    DISPLAY kecepatan 15km/jam
+
+IF jumlah penumpang maksimal  
+  DO kecepatan becak 20km/jam - 7km/jam
+    DISPLAY kecepatan 13km/jam
+
+IF selain jumlah penumpang itu  
+  DO kecepatan becak 20km/jam - 2km/jam
+    DISPLAY kecepatan 18km/jam
+
+
